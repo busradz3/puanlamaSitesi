@@ -1,0 +1,52 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f8f9fa;
+}
+.navbar-brand{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: size 28px; ;
+}
+
+/* Arka plan rengini belirler. */
+.bg-bordo {
+  background-color: #5e0b0b !important;
+}
+
+.btn-outline-bordo {
+  color: #5b0a0a;
+  border-color: #5b0a0a;
+}
+.btn-outline-bordo:hover {
+  background-color: #5b0a0a;
+  color: #fff;
+}
+
+/* Başlık kısmının görsel özelliklerini belirler. */
+.hero {
+  background: linear-gradient(rgba(141, 106, 106, 0.7), rgba(91,10,10,0.7)),
+              url('https://source.unsplash.com/1600x700/?cinema,books,music') center/cover;
+  height: 50vh;
+  background-image:url('https://i.pinimg.com/1200x/22/7f/ca/227fca8e792d1dd466ff6dde58426b8c.jpg');
+  background-size: cover;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* Konteynır özelliklerini oluşturur. */
+.content-card img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  object-fit:cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 500;
+  color: #bb1313;
+}
+
+footer {
+  font-size: 0.9rem;
+}
